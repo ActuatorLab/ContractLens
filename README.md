@@ -1,13 +1,13 @@
-# FOIATrackr: RPA-Based FOIA Request Tracking & Reporting Platform
+# ContractLens: RPA-Based Contract & Invoice Compliance Monitoring Platform
 
-FOIATrackr is a **web-enabled, RPA-driven case management and reporting platform** designed to automate the tracking of **FOIA-style information requests** in **federal and regulated public-sector environments**. Using UiPath, FOIATrackr assigns tracking IDs, monitors case status, escalates overdue requests, and produces audit-ready reports to support transparency, compliance, and timely response.
+ContractLens is a **web-enabled, RPA-driven contract compliance and invoice reconciliation platform** designed to strengthen **financial accuracy and oversight in federal and regulated enterprise environments**. Using UiPath, ContractLens automatically validates vendor invoices against contract terms, flags discrepancies, generates audit-ready compliance reports, and executes recurring runs through Orchestrator.
 
-Built to reduce manual workload and backlog risk, FOIATrackr enhances visibility and accountability across the FOIA request lifecycle.
+Built to reduce manual review effort and financial risk, ContractLens improves transparency, consistency, and control across contract management processes.
 
 # Table of Contents
 - [Overview](#overview)
 - [Key Features](#key-features)
-- [Why Use FOIATrackr](#why-use-foiatrackr)
+- [Why Use ContractLens](#why-use-contractlens)
 - [Target Users](#target-users)
 - [How It Works](#how-it-works)
 - [Use Cases](#use-cases)
@@ -16,110 +16,110 @@ Built to reduce manual workload and backlog risk, FOIATrackr enhances visibility
 - [License](#license)
 
 ## Overview
-FOIATrackr automates the end-to-end lifecycle of FOIA-style requests by orchestrating UiPath bots through a web-accessible governance interface. The platform standardizes request intake, assigns unique tracking identifiers, continuously monitors deadlines, and escalates cases approaching or exceeding statutory timelines.
+ContractLens automates the reconciliation of vendor invoices by orchestrating UiPath bots through a web-accessible governance layer. The platform extracts invoice data, compares billed rates and quantities against approved contract terms, identifies discrepancies, and produces standardized compliance reports.
 
-The solution is designed to complement existing case management systems by automating repetitive tracking and reporting tasks while maintaining full traceability and audit readiness required in federal environments.
+The solution is designed to complement existing financial and contract management systems by automating repetitive validation tasks while maintaining full traceability and audit readiness required in federal acquisition environments.
 
 ## Key Features
 
 <details>
-  <summary><b>Automated Request Intake</b></summary>
-<ul> Captures and registers FOIA-style requests from approved intake sources.</ul>
+  <summary><b>Automated Invoice Reconciliation</b></summary>
+<ul> Compares vendor invoices against approved contract terms.</ul>
 </details>
 
 <details>
-  <summary><b>Unique Tracking ID Assignment</b></summary>
-<ul> Automatically generates and assigns case tracking identifiers.</ul>
+  <summary><b>Rate & Term Validation</b></summary>
+<ul> Verifies pricing, labor categories, quantities, and contract ceilings.</ul>
 </details>
 
 <details>
-  <summary><b>Case Status Management</b></summary>
-<ul> Updates and tracks request status throughout the lifecycle.</ul>
+  <summary><b>Discrepancy Detection</b></summary>
+<ul> Flags billing variances and non-compliant charges.</ul>
 </details>
 
 <details>
-  <summary><b>Deadline Monitoring & Escalation</b></summary>
-<ul> Identifies approaching and overdue requests and triggers escalations.</ul>
-</details>
-
-<details>
-  <summary><b>Web-Based Case Dashboard</b></summary>
-<ul> Provides centralized visibility into active, pending, and closed cases.</ul>
+  <summary><b>Web-Based Compliance Dashboard</b></summary>
+<ul> Centralized visibility into reconciliation results and findings.</ul>
 </details>
 
 <details>
   <summary><b>Audit-Ready Reporting</b></summary>
-<ul> Generates standardized reports for compliance and oversight reviews.</ul>
+<ul> Generates standardized reports for financial and acquisition reviews.</ul>
 </details>
 
 <details>
-  <summary><b>Traceable Action Logging</b></summary>
-<ul> Maintains detailed logs of all case updates and automation actions.</ul>
+  <summary><b>Scheduled Orchestrator Runs</b></summary>
+<ul> Executes recurring reconciliations using UiPath Orchestrator.</ul>
+</details>
+
+<details>
+  <summary><b>Exception Management Workflow</b></summary>
+<ul> Routes discrepancies for review and resolution.</ul>
+</details>
+
+<details>
+  <summary><b>Traceable Processing Logs</b></summary>
+<ul> Maintains detailed logs of validations and bot actions.</ul>
 </details>
 
 <details>
   <summary><b>Role-Based Access Control (RBAC)</b></summary>
-<ul> Restricts case access based on user roles and responsibilities.</ul>
+<ul> Restricts access based on financial and acquisition roles.</ul>
 </details>
 
 <details>
-  <summary><b>Configurable Escalation Rules</b></summary>
-<ul> Supports policy-driven escalation thresholds and notifications.</ul>
+  <summary><b>Policy-Aligned Validation Rules</b></summary>
+<ul> Aligns reconciliation logic with acquisition and financial policies.</ul>
 </details>
 
-<details>
-  <summary><b>Status Notifications</b></summary>
-<ul> Sends automated updates to FOIA officers and stakeholders.</ul>
-</details>
+## Why Use ContractLens
+Manual invoice reviews are time-consuming and error-prone. ContractLens addresses these challenges by:
 
-## Why Use FOIATrackr
-FOIA request management often suffers from manual tracking and missed deadlines. FOIATrackr addresses these challenges by:
-
-<ol><b>Improving Transparency:</b> Provides clear visibility into request status.</ol>
-<ol><b>Reducing Backlogs:</b> Automates tracking and escalation.</ol>
-<ol><b>Ensuring Timeliness:</b> Monitors statutory deadlines.</ol>
-<ol><b>Enhancing Audit Readiness:</b> Produces standardized, traceable reports.</ol>
-<ol><b>Increasing Efficiency:</b> Reduces manual case management effort.</ol>
+<ol><b>Improving Financial Accuracy:</b> Identifies billing errors and discrepancies.</ol>
+<ol><b>Reducing Risk:</b> Prevents overbilling and non-compliant payments.</ol>
+<ol><b>Enhancing Oversight:</b> Provides consistent contract compliance checks.</ol>
+<ol><b>Supporting Audits:</b> Produces traceable, standardized reports.</ol>
+<ol><b>Increasing Efficiency:</b> Automates repetitive financial reviews.</ol>
 
 ## Target Users
-<b>FOIA Officers:</b> Manage and track information requests efficiently.
+<b>Federal Finance Teams:</b> Validate vendor invoices efficiently.
 
-<b>Federal Program Offices:</b> Coordinate responses across teams.
+<b>Contracting Officers & CORs:</b> Monitor compliance with contract terms.
 
-<b>Records Management Teams:</b> Support compliant information handling.
+<b>Acquisition & Procurement Teams:</b> Strengthen financial controls.
 
-<b>Program Managers:</b> Monitor workload and performance metrics.
+<b>Program Managers:</b> Gain visibility into contract performance.
 
-<b>Auditors & Oversight Bodies:</b> Review compliance and response history.
+<b>Auditors & Oversight Teams:</b> Review invoice compliance and findings.
 
 ## How It Works
-FOIATrackr automates FOIA-style request tracking through a structured workflow:
+ContractLens automates contract compliance through a controlled workflow:
 
-<ol><b>Request Registration:</b> Requests are logged and assigned tracking IDs.</ol>
-<ol><b>Status Updates:</b> Case progress is updated as actions occur.</ol>
-<ol><b>Deadline Tracking:</b> Timelines are continuously monitored.</ol>
-<ol><b>Escalation:</b> Overdue or at-risk cases trigger alerts.</ol>
-<ol><b>Reporting:</b> Audit-friendly reports are generated on demand.</ol>
+<ol><b>Invoice Intake:</b> Vendor invoices are ingested and parsed.</ol>
+<ol><b>Contract Comparison:</b> Invoice data is validated against contract terms.</ol>
+<ol><b>Discrepancy Identification:</b> Variances are flagged and recorded.</ol>
+<ol><b>Reporting:</b> Compliance and exception reports are generated.</ol>
+<ol><b>Scheduling:</b> Reconciliations run automatically on defined intervals.</ol>
 
 ## Use Cases
-<ol><b>FOIA Request Tracking:</b> Centralized management of public information requests.</ol>
-<ol><b>Statutory Deadline Compliance:</b> Monitor and enforce response timelines.</ol>
-<ol><b>Backlog Reduction:</b> Identify and escalate stalled cases.</ol>
-<ol><b>Oversight Reporting:</b> Provide metrics to leadership and auditors.</ol>
-<ol><b>Process Standardization:</b> Apply consistent tracking across offices.</ol>
+<ol><b>Recurring Invoice Validation:</b> Automate monthly or quarterly reviews.</ol>
+<ol><b>Contract Compliance Monitoring:</b> Ensure adherence to pricing terms.</ol>
+<ol><b>Financial Oversight:</b> Detect overbilling and anomalies early.</ol>
+<ol><b>Audit Preparation:</b> Provide documentation for financial audits.</ol>
+<ol><b>Operational Efficiency:</b> Reduce manual reconciliation workload.</ol>
 
 ## Future Plans
-<ol><b>Integration with FOIA Portals:</b> Automated intake from public-facing systems.</ol>
-<ol><b>Advanced Analytics:</b> Trend analysis on request volume and response times.</ol>
-<ol><b>Document Tracking Enhancements:</b> Improved visibility into record retrieval.</ol>
-<ol><b>Automated Response Metrics:</b> Support annual FOIA reporting requirements.</ol>
+<ol><b>Advanced Analytics:</b> Identify billing trends and recurring issues.</ol>
+<ol><b>ERP Integration:</b> Deeper integration with financial systems.</ol>
+<ol><b>Multi-Contract Support:</b> Expanded handling of complex contracts.</ol>
+<ol><b>Predictive Risk Scoring:</b> Identify high-risk invoices proactively.</ol>
 
 ## Contributing
 Contributions are welcome. You can contribute by:
 
 - <ol>Submitting bug reports or enhancement requests.</ol>
-- <ol>Improving reporting templates and dashboards.</ol>
-- <ol>Adding integrations with records systems.</ol>
+- <ol>Improving validation rules and reports.</ol>
+- <ol>Adding integrations with procurement systems.</ol>
 
 ## License
 This project is licensed under the Apache 2.0 License.
